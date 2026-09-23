@@ -31,5 +31,4 @@
 | **DELIVERING**        | Delivery Successful       | **RETURNING**         |
 | **RETURNING**         | Warehouse Reached         | **IDLE**              |
 | **NAVIGATING**        | Critical Battery          | **RETURNING**         |
-
-The lab specifically asks for a state transition table connecting the identified states with the relevant events/conditions. 
+ 
