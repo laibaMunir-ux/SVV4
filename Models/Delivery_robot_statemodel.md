@@ -19,3 +19,17 @@
 | **E5**                 | **Obstacle Detected**         |   |
 | **E6**                 | **Obstacle Avoided**          |   |
 | **E7**                 | **Critical Battery**          |   |
+
+# Task 4 — State Transition Table
+
+| **Current State**     | **Event / Condition**     | **Next State**        |
+| --------------------- | ------------------------- | --------------------- |
+| **IDLE**              | Delivery Request Received | **NAVIGATING**        |
+| **NAVIGATING**        | Obstacle Detected         | **AVOIDING_OBSTACLE** |
+| **AVOIDING_OBSTACLE** | Obstacle Avoided          | **NAVIGATING**        |
+| **NAVIGATING**        | Destination Reached       | **DELIVERING**        |
+| **DELIVERING**        | Delivery Successful       | **RETURNING**         |
+| **RETURNING**         | Warehouse Reached         | **IDLE**              |
+| **NAVIGATING**        | Critical Battery          | **RETURNING**         |
+
+The lab specifically asks for a state transition table connecting the identified states with the relevant events/conditions. 
