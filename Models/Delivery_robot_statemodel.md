@@ -8,3 +8,14 @@
 | **S4**       | **DELIVERING**        |
 | **S5**       | **RETURNING**         |
 
+# Task 3 — Identify Events/Conditions
+
+| **Event/Condition ID** | **Event/Condition**           |   |
+| ---------------------- | ----------------------------- | - |
+| **E1**                 | **Delivery Request Received** |   |
+| **E2**                 | **Destination Reached**       |   |
+| **E3**                 | **Delivery Successful**       |   |
+| **E4**                 | **Warehouse Reached**         |   |
+| **E5**                 | **Obstacle Detected**         |   |
+| **E6**                 | **Obstacle Avoided**          |   |
+| **E7**                 | **Critical Battery**          |   |
